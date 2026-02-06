@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Missing Child Finder</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<h1>🧒 Missing Child Finder</h1>
+
+<div class="top-buttons">
+  <a class="btn" href="/upload_missing.html">📤 Report Missing Child</a>
+  <a class="btn" href="/upload_found.html">📤 Report Found Child</a>
+  <button class="btn danger" onclick="clearAllData()">🗑 Clear All Data</button>
+</div>
+
+<hr>
+
+<h2>🔍 Compare Missing Child</h2>
+<input type="file" id="missingImage"><br><br>
+<button onclick="compareFaces()">Compare Faces</button>
+
+<pre id="result"></pre>
+
+<!-- OPTION 2: ONLY ENABLED AFTER MATCH -->
+<button id="clearMatchBtn" class="btn danger" onclick="clearMatchedData()" style="display:none">
+  🗑 Clear Matched Data
+</button>
+
+<hr>
+
+<h2>🧒 Currently Missing Children</h2>
+<div id="missingList" class="missing-grid"></div>
+
+<script src="/script.js"></script>
+</body>
+</html>

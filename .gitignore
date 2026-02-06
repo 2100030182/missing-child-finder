@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# ML cache
+.deepface/
+*.h5
+
+# Databases
+database.db
+
+# OS files
+.DS_Store
+Thumbs.db

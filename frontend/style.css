@@ -1,0 +1,47 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f5f6fa;
+}
+
+.btn {
+  padding: 10px 16px;
+  margin: 5px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #2c80b4;
+}
+
+.danger {
+  background: #e74c3c;
+}
+
+.danger:hover {
+  background: #c0392b;
+}
+
+.missing-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.missing-card {
+  background: white;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.missing-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
